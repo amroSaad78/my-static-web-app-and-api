@@ -1,6 +1,6 @@
-const data = require('../shared/product-data');
+const data = require("../shared/product-data");
 
-module.exports = async function (context, req) {
+module.exports = function (context, req) {
   const id = parseInt(req.params.id, 10);
 
   try {
